@@ -48,8 +48,12 @@ body {
     flex-direction: column;
   
   }
+  aside{
+    flex: 1 1 130px;
+    background-color: rgb(238, 192, 192);
+   
+  }
   .main_left div{
-    /* border: solid 1px blue; */
     flex: 0 1 130px;
     background-color: rgb(238, 192, 192);
    
@@ -60,13 +64,17 @@ body {
     border-radius: 50%;
     filter: grayscale(0.8);
   }
-  .main_left div:first-of-type{
+header{
+  background-color:  rgb(244, 244, 244);
+  flex: 0 1 130px;
+}
+  /* .main_left div:first-of-type{
     background-color:  rgb(244, 244, 244);
-  }
-  .main_left div:last-of-type{
+  } */
+  /* .main_left div:last-of-type{
     flex: 1 1 130px;
-  }
-  .main_left li{
+  } */
+ li{
     list-style-type: none;
   }
   .main_right {
