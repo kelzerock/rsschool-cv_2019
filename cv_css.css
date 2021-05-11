@@ -59,10 +59,10 @@ body {
    
   }
   .main_left img {
-    width: 60%;
-    margin: 10px 20%;
-    border-radius: 50%;
-    filter: grayscale(0.8);
+    width: 310px;
+    height: auto;
+    margin: 10px calc( 50% - 150px );
+    border-radius: 15px;
   }
 header{
   background-color:  rgb(244, 244, 244);
