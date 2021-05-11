@@ -68,15 +68,13 @@ header{
   background-color:  rgb(244, 244, 244);
   flex: 0 1 130px;
 }
-  /* .main_left div:first-of-type{
-    background-color:  rgb(244, 244, 244);
-  } */
-  /* .main_left div:last-of-type{
-    flex: 1 1 130px;
-  } */
- li{
+
+
+
+ li {
     list-style-type: none;
   }
+
   .main_right {
     padding-left: 20px;
   flex: 1 1 300px;
@@ -160,6 +158,9 @@ header{
     background-color:  rgb(244, 244, 244);
     padding: 0 50px 10px;
   
+  }
+  footer p{
+    margin: 0 auto;
   }
   @media screen and (max-width: 750px) {
     .main_right{
